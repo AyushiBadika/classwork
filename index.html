@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        margin-top: 4rem;
+        border-radius: 4px;
+        width: 50%;
+        box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.228);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+      }
+      .header {
+        margin: 0;
+      }
+      button {
+        display: block;
+        margin-top: 10px;
+        background-color: #007afe;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+      }
+      p {
+        margin-bottom: 10px;
+      }
+      #date {
+        width: 300px;
+        height: 20px;
+        padding: 10px;
+        border-radius: 4px;
+        border-color: rgba(0, 0, 0, 0.274);
+        border-width: 1px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .ageContainer {
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Age Calculator</h1>
+      <p>Enter your date of birth</p>
+      <form action="">
+        <input type="date" name="" id="date" />
+        <button class="btn">Calculate Age</button>
+      </form>
+
+      <h3 class="ageContainer">Let's Calculate Age</h3>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
